@@ -70,7 +70,7 @@
             margin-bottom: 10px;
         }
         #footer-contact-list a, #footer-developers-list a, #footer-designers-list a {
-            color: #black;
+            color: black ;
             text-decoration: none;
         }
         #footer-contact-list a:hover, #footer-developers-list a:hover, #footer-designers-list a:hover {
