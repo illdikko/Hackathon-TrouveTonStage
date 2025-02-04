@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+</head> 
 <body>
 <div class="container">
         <h2>Formulaire de contact</h2>
+        <select name="form-select" id="form-select">
+            <option value disabled selected>-- Selectionner --</option>
+            <option value="form-info">information</option>
+            <option value="form-candi">candidature spontanée</option>
+        </select>
         <form action="{{ route('form.submit') }}" method="POST" enctype="multipart/form-data">
             @crsf
             
