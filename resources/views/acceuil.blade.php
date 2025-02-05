@@ -9,7 +9,7 @@
     
 <nav class="menu">
         <ul>
-            <li><a href="#">Accueil</a></li>
+
             <li><a href="#">Pôle Numérique</a></li>
             <li><a href="#">Pôle Bien-être</a></li>
             <li><a href="#">Pôle Art et Média</a></li>
