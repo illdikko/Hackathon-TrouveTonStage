@@ -1,0 +1,40 @@
+:root {
+    --yellow: #ffcc00;
+    --cyan: #00c3de;
+    --blue: #0191b6;
+    --orange: #fdba2c;
+    --green: #d3de16;
+    --drop-shadow-efp: #1792b749;
+}
+body {
+    font-family: "Karla";
+}
+main {
+    max-width: 95vw;
+    margin: auto;
+}
+.yellow-bg {
+    background-color: var(--yellow);
+}
+.border-yellow {
+    border: 2px solid var(--yellow);
+}
+.blue-bg {
+    background-color: var(--blue);
+}
+.white {
+    color: white;
+}
+.drop-shadow {
+    box-shadow: 0 0 1rem var(--drop-shadow-efp);
+}
+footer.drop-shadow {
+    box-shadow: 0 0 1rem var(--drop-shadow-efp);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+ul {
+    list-style-type: none;
+}

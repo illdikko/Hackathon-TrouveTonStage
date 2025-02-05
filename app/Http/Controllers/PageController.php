@@ -7,26 +7,42 @@ use Illuminate\Http\Request;
 class PageController extends Controller
 {
     public function index() {
-        return view('home');
+        return view('accueil');
     }
 
     public function catalogue() {
         return view('catalogue');
     }
 
-    public function offer() {
-        return view('offer');
-    }
-
-    public function contact() {
+    public function contactForm() {
         return view('contact-form');
     }
 
-    public function profile() {
-        return view('profile');
+    public function mySpace() {
+        return view('mon-espace');
     }
 
-    public function createOffer() {
-        return view('form-annonce');
+    public function createOfferForm() {
+        return view('form-offre');
+    }
+
+    public function jobibox() {
+        return view('jobibox');
+    }
+
+    public function applyOfferForm() {
+        return view('offre');
+    }
+
+    public function toolBox() {
+        return view('fichesExp');
+    }
+
+    public function faq() {
+        return view('faq');
+    }
+
+    public function confirmation() {
+        return view('confirmation');
     }
 }

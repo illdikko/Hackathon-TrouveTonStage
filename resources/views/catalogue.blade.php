@@ -1,16 +1,14 @@
 <?php
 use App\Http\Controllers\AnnonceController;
 
-?>
+$annonces = AnnonceController::getAnnonce();
 
+?>
 @include('partials.header')
 
-<h1>Catalogue</h1>
-@foreach (AnnonceController::getAnnonce() as $annonce)
-    <div>
-        <h2>{{ $annonce->label }}</h2>
-        <p>{{ $annonce->contenu }}</p>
-        <p>{{ $annonce->metier->label }}</p>
-        <h2>{{ $annonce->metier->referent->prenom }}</h2>
-    </div>
+<input type="search" id="search-bar" placeholder="Rechercher...">
+@foreach ($annonces as $annonce)
+    @include('partials.carte-annonce', $annonce)
 @endforeach
+
+@include('footer')
