@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class AnnonceController extends Controller
 {
-    public function getAnnonce() {
+    static public function getAnnonce() {
         $data = Annonce::with('metier')->get();
         return $data;
     }
@@ -16,13 +16,15 @@ class AnnonceController extends Controller
         Annonce::find($id)->delete();
     }
 
-    public function createAnnonce() {
+    public function createAnnonce(Request $request) {
         $incomingFields = $request->validate(rules: [
             'label' => ['required', 'min:3'],
-            'description' => ['required'],
-            'remun' => ['required'],
+            'contenu' => ['required'],
+            'remuneration' => ['required'],
             'metier_id' => ['required'],
         ]);
+
+        $incomingFields['remuneration'] = $request->input('remuneration', 1);
 
         Annonce::create($incomingFields);
 

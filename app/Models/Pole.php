@@ -9,6 +9,10 @@ class Pole extends Model
 {
     use HasFactory;
 
+    protected $table = 'pole';
+
+    public $timestamps = false;
+
     protected $fillable = [
         'id',
         'label',
