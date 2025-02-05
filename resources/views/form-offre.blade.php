@@ -1,5 +1,8 @@
 <?php use App\Http\Controllers\MetierController;?>
 
+@include('partials.header')
+
+
 <form action="/create-offer" method="post">    
     
     <div class="input-group">

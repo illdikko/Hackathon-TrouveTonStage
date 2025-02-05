@@ -6,6 +6,9 @@ use App\Models\Annonce;
 $annonce = Annonce::find($id)->get();
 ?>
 
+@include('partials.header')
+
+
 <div>
 <h1>{{$annonce->label}}</h1>
 <p>{{$annonce->contenu}}</p>

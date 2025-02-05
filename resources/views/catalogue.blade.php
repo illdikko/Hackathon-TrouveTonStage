@@ -3,7 +3,7 @@ use App\Http\Controllers\AnnonceController;
 
 ?>
 
-{{-- @include('header') --}}
+@include('partials.header')
 
 <h1>Catalogue</h1>
 @foreach (AnnonceController::getAnnonce() as $annonce)
