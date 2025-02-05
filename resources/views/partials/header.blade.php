@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>EFP</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -18,23 +18,24 @@
 <body>
     {{-- mobile --}}
     <header class="d-flex flex-wrap justify-content-between p-3 mb-4 border-bottom drop-shadow">
-        <a href="/"
-            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <img src="assets/048e0e3h.png" alt="logo_efp">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+            <img src="{{ asset('/SFPME_LOGO_CMYK.png') }}" alt="logo_efp" height="48px">
         </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item p-1 yellow-bg rounded"><img src="{{ asset('/icons/list.svg') }}" alt="burger menu icon"
-                    width="48" height="48"></li>
-        </ul>
-        {{-- <nav class="d-flex flex-row justify-content-between">
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="/catalogue">Catalogue</a></li>
-                <li class="nav-item"><a href="/contacts">Contacts</a></li>
-                <li class="nav-item"><a href="/boite-outils">Boite à outils</a></li>
-                <li class="nav-item"><a href="/faq">FAQ</a></li>
-            </ul>
-        </nav> --}}
-    </header>
+        <img class="yellow-bg rounded m-2 p-2" src=" {{ asset('/icons/list.svg') }}" alt="burger menu icon" width="48"
+            height="48" id="burger-button">
 
-    {{-- desktop --}}
+        {{-- OVERLAY for burger menu --}}
+    </header>
     <main>
+
+        <div class="overlay-menu" id="overlay">
+            <nav class="d-flex flex-column justify-content-center align-items-center">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item"><a href="/catalogue">Catalogue</a></li>
+                    <li class="nav-item"><a href="/contact">Contacts</a></li>
+                    <li class="nav-item"><a href="/boite-outils">Boite à outils</a></li>
+                    <li class="nav-item"><a href="/faq">FAQ</a></li>
+                </ul>
+            </nav>
+        </div>
+        {{-- desktop --}}

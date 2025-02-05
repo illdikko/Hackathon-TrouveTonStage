@@ -11,4 +11,4 @@ $annonces = AnnonceController::getAnnonce();
     @include('partials.carte-annonce', $annonce)
 @endforeach
 
-@include('footer')
+@include('partials.footer')

@@ -1,8 +1,6 @@
 <?php
-
 use App\Http\Controllers\AnnonceController;
 use App\Models\Annonce;
-
 $annonce = Annonce::find($id)->get();
 ?>
 
@@ -10,14 +8,15 @@ $annonce = Annonce::find($id)->get();
 
 
 <div>
-<h1>{{$annonce->label}}</h1>
-<p>{{$annonce->contenu}}</p>
-<p>{{$annonce->remuneration}}</p>
-<p>{{$annonce->metier->label}}</p>
+    <h1>{{$annonce->label}}</h1>
+    <p>{{$annonce->contenu}}</p>
+    <p>{{$annonce->remuneration}}</p>
+    <p>{{$annonce->metier->label}}</p>
 </div>
 
 
-<form>
+<form action="/send-mail" method="post">
+    @csrf
     <div class="input-group">
         <input type="text" name="nom" placeholder="Nom">
         <input type="text" name="prenom" placeholder="Prénom">
@@ -33,3 +32,5 @@ $annonce = Annonce::find($id)->get();
     </div>
     <button type="submit">Postuler</button>
 </form>
+
+@include('partials.footer')
