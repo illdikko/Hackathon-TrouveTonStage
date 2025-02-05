@@ -11,6 +11,8 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2522.018335495536!2d4.316595976458589!3d50.79376877165978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sefp!5e0!3m2!1sfr!2sbe!4v1738680244303!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <h1>Espace FAQ</h1>
 
+    <p>Clique <a href="https://www.efp.be/projets/plateforme-dora.html">ICI</a> pour basculer vers la plateforme DORA!</p>
+
     <h4>1. Comment puis-je trouver un stage qui correspond à ma formation ?</h4>
     <p>Vous pouvez consulter le Catalogue des Annonces de Stages, qui propose un tri par métier. Vous pouvez également contacter les Experts Métiers pour obtenir des conseils et des recommandations.</p>
     
