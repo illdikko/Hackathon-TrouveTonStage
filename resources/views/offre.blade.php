@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Description offre</title>
-    <link rel="stylesheet" href="#">
-</head>
-<body>
     <p>Ici y aura l'annonce</p>
 
     <div>
@@ -42,7 +33,17 @@
         <input type="file">
     </div>
 
-    <button type="submit">Postuler</button>
 
-</body>
-</html>
+
+    <form>
+        <div class="input-group">
+            <input type="text" name="nom" placeholder="Nom">
+            <input type="text" name="prenom" placeholder="Prénom">
+        </div>
+        <input type="email" name="email" placeholder="Adresse mail">
+        <div class="file-upload">
+            <label for="cv-motivation">Glisser son CV et sa lettre de motivation</label>
+            <input type="file" id="cv-motivation" name="cv-motivation" multiple>
+        </div>
+        <button type="submit">Postuler</button>
+    </form>

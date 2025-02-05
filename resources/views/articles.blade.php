@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Articles</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <div class="logo"></div>
-        <div class="menu">
-            <div class="hamburger-menu"></div>
-            <button class="user-button">U</button>
-        </div>
-    </nav>
-
     <div class="container">
 
         <h2>Articles</h2>
@@ -44,5 +27,3 @@
             </div>
         </div>
     </div>
-</body>
-</html>
