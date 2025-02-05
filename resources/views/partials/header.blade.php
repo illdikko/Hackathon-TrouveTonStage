@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav>
-            <a href="#"><img src="assets/048e0e3h.png" alt="logo_efp"></a>
+            <a href="#"><img src="" alt="logo_efp"></a>
             <li><a href="#"></a>Catalogue</li>
             <li><a href="#"></a>Contacts</li>
             <li><a href="#"></a>Boite à outils</li>
