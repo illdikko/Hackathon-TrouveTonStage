@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+< lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<>
     <!-- footer.blade.php -->
     <footer id="footer">
         <div id="footer-container">
@@ -40,47 +40,9 @@
             </div>
         </div>
         <div id="footer-bottom">
-            <small>&copy; 2025 Groupe 10. Tous droits réservés.</small>
+            <small>&copy; 2025 Groupe 10. Hackathon 2025.</small>
         </div>
     </footer>
-    <style>
-        #footer {
-            background-color: white;
-            color: black;
-            padding: 20px 0;
-            
-        }
-        #footer-container {
-            display: flex;
-            justify-content: space-between;
-        }
-        #footer-contact, #footer-developers, #footer-designers {
-            flex: 1;
-            margin: 0 10px;
-        }
-        #footer-contact h5, #footer-developers h5, #footer-designers h5 {
-            margin-bottom: 10px;
-        }
-        #footer-contact-list, #footer-developers-list, #footer-designers-list {
-            list-style: none;
-            padding: 0;
-           
-        }
-        #footer-contact-list li, #footer-developers-list li, #footer-designers-list li {
-            margin-bottom: 10px;
-        }
-        #footer-contact-list a, #footer-developers-list a, #footer-designers-list a {
-            color: black ;
-            text-decoration: none;
-        }
-        #footer-contact-list a:hover, #footer-developers-list a:hover, #footer-designers-list a:hover {
-            text-decoration: underline;
-        }
-        #footer-bottom {
-            text-align: center;
-            margin-top: 20px;
-        }
-    </style>
-
+   
 </body>
 </html>
