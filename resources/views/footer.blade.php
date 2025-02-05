@@ -9,38 +9,47 @@
     <!-- footer.blade.php -->
     <footer id="footer">
         <div id="footer-container">
-            <div id="footer-contact">
-                <h5>Contact</h5>
-                <ul id="footer-contact-list">
-                    <li><a href="mailto:info@efp.be">Email: info@efp.be</a></li>
-                    <li><a href="tel:+efp">Téléphone: 0800 85 210</a></li>
-                </ul>
+            <div id="footer-liens">
+                <a href="/stage">Stages</a>
+                <a href="/boite-a-outil">Boîte à outils</a>
+                <a href="/faq">FAQ</a>
+                <a href="/contact">Contact</a>
             </div>
-            <div id="footer-developers">
-                <h5>Développeurs</h5>
-                <ul id="footer-developers-list">
-                    <li>Amelien Sampaix</li>
-                    <li>Coline Ducourtieux</li>
-                    <li>Rabdeep Singh</li>
-                    <li>Guillaume Verlaeken</li>
-                    <li>Meriton Askaj</li>
-                </ul>
-            </div>
-            <div id="footer-designers">
-                <h5>Graphistes</h5>
-                <ul id="footer-designers-list">
-                    <li>Brenda Tamara Sanchez Alfaro</li>
-                    <li>Jean-Willy Mukendi-Lubenzu</li>
-                    <li>Alice Iragena</li>
-                    <li>Nada Lamghari Idrissi</li>
-                    <li>Pudens Rob Kilenda</li>
-                    <li>Noelie Moss</li>
-                    <li>Clovis Reuss</li>
-                </ul>
-            </div>
+                
+               <div class="footer-coordonnes">
+                    <ul id="footer-contact-right">
+                         
+                         <p><a href="mailto:info@efp.be">info@efp.be</a></p>
+                         <p><a href="tel:+efp">0800 85 210</a></p>
+                    </ul>
+                    <ul id="footer-contact-left">
+                            <p>EFP_SFPME</p>
+                            <a href="https://www.google.com/maps/search/?q=efp+uccle" target="_blank">
+                                Rue de Stalle 292, <br> 1180 Uccle
+                            </a>
+
+                    </ul>
+               </div>
+
+               <div class="footer-social">
+                <p>Suivez-nous et restez informer</p>
+                    <ul id="footer-social-list">
+                         <li><a href="https://www.facebook.com/efpbruxelles" target="_blank"><img src="" alt="logo_facebook"></a></li>
+                         <li><a href="https://twitter.com/efpbruxelles" target="_blank"><img src="" alt="logo-x"></a></li>
+                         <li><a href="https://www.linkedin.com/school/efp-bruxelles/" target="_blank"><img src="" alt="logo-linkedin"></a></li>
+                         <li><a href="https://www.youtube.com/efp"><img src="" alt="logo-youtube"></a></li>
+                    </ul>
+               </div>
+            
+
+
+
+            
+            
         </div>
         <div id="footer-bottom">
-            <small>&copy; 2025 Groupe 10. Hackathon 2025.</small>
+            <small>&copy; 2025 Groupe 10.</small>
+            <small> Hackathon 2025.</small>
         </div>
     </footer>
    

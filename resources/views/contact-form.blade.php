@@ -9,14 +9,7 @@
 <div class="container">
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2522.018152525174!2d4.316595976496832!3d50.793772162584766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sefp!5e0!3m2!1sfr!2sbe!4v1738679355862!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <h2>Formulaire de contact</h2>
-        <select name="form-select" id="form-select">
-            <option value disabled selected>-- Selectionner --</option>
-            <option value="form-info">information</option>
-            <option value="form-numerique">Pole Numerique</option>
-            <option value="form-bienEtre">Pole Bien-étre</option>
-            <option value="form-service">Pole Service</option>
-            <option value="form-artMedia">Pole Art et Média</option>
-        </select>
+        <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>
         <form action="{{ route('form.submit') }}" method="POST" enctype="multipart/form-data">
             @crsf
             
