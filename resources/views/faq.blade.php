@@ -7,18 +7,6 @@
     <link rel="stylesheet" href="">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#"><img src="assets/048e0e3h.png" alt="logo_efp"></a>
-            <li><a href="#"></a>Catalogue</li>
-            <li><a href="#"></a>Contacts</li>
-            <li><a href="#"></a>Boite à outil</li>
-            <li><a href="#"></a>Espace utilisateur</li>
-            
-        </nav>
-        
-    </header>
-
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2522.018335495536!2d4.316595976458589!3d50.79376877165978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sefp!5e0!3m2!1sfr!2sbe!4v1738680244303!5m2!1sfr!2sbe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <h1>Espace FAQ</h1>
@@ -46,7 +34,7 @@
     <p>La boîte à outils met à disposition des articles, des guides et des liens vers les ateliers D.O.R.A, qui vous aident à rédiger un CV, une lettre de motivation et à réussir un entretien.</p>
 
     <h4>8. À qui puis-je m’adresser en cas de difficulté pour trouver un stage ?</h4>
-    <p>Si vous rencontrez des difficultés, vous pouvez contacter les Experts Métiers ou utiliser la plateforme D.O.R.A, qui propose un accompagnement et des conseils personnalisés pour les étudiants en recherche de stage.</p>
+    <p>Si vous rencontrez des difficultés, vous pouvez contacter les <b>Experts Métiers</b> ou utiliser la plateforme <b>D.O.R.A</b>, qui propose un accompagnement et des conseils personnalisés pour les étudiants en recherche de stage.</p>
 
 </body>
 </html>
