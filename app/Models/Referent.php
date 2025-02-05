@@ -20,4 +20,8 @@ class Referent extends Model
         'email',
         'telephone'
     ];
+
+    public function getFullName(): string {
+        return $this->prenom . ' ' . $this->nom;
+    }
 }
