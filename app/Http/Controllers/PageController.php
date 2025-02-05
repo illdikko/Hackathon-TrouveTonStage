@@ -21,4 +21,12 @@ class PageController extends Controller
     public function contact() {
         return view('contact-form');
     }
+
+    public function profile() {
+        return view('profile');
+    }
+
+    public function createOffer() {
+        return view('form-annonce');
+    }
 }

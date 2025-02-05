@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class MetierController extends Controller
 {
-    public function getMetier() {
+    static public function getMetier() {
         $data = Metier::with('referent')->get();
         return $data;
     }
