@@ -11,10 +11,9 @@ class Expert extends Model
 
     protected $fillable = [
         'id',
-        'expert_nom',
-        'expert_prenom',
-        'expert_email',
-        'expert_telephone',
-        'pole_id'
+        'prenom',
+        'nom',
+        'email',
+        'telephone'
     ];
 }

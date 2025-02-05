@@ -11,6 +11,6 @@ class Pole extends Model
 
     protected $fillable = [
         'id',
-        'nom',
+        'label',
     ];
 }

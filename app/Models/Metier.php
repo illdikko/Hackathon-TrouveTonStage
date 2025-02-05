@@ -11,10 +11,8 @@ class Metier extends Model
 
     protected $fillable = [
         'id',
-        'title',
+        'label',
         'pole_id',
-        'expert_nom',
-        'expert_email',
-        'expert_telephone',
+        'referent_id'
     ];
 }

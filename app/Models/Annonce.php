@@ -11,11 +11,9 @@ class Annonce extends Model
 
     protected $fillable = [
         'id',
-        'titre',
-        'contenu',
-        'metier_id',
-        'contact_id',
-        'contact_email',
-        'contact_telephone'
+        'label',
+        'description',
+        'remun',
+        'metier_id'
     ];
 }

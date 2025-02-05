@@ -8,23 +8,24 @@ use Illuminate\Http\Request;
 class AnnonceController extends Controller
 {
     public function getAnnonce() {
-        $data = Annonce::get();
+        $data = Annonce::with('metier')->get();
         return $data;
+    }
+
+    public function deleteAnnonce($id) {
+        Annonce::find($id)->delete();
     }
 
     public function createAnnonce() {
         $incomingFields = $request->validate(rules: [
-            'titre' => ['required'],
-            'contenu' => ['required'],
-            'metier-id' => ['required'],
+            'label' => ['required', 'min:3'],
+            'description' => ['required'],
+            'remun' => ['required'],
+            'metier_id' => ['required'],
         ]);
-
-        $incomingFields['contact_id'] = Auth::user()->id;
-        $incomingFields['contact_email'] = Auth::user()->email;
-        $incomingFields['contact_telephone'] = Auth::user()->phone;
 
         Annonce::create($incomingFields);
 
-        return redirect('/');
+        return redirect('/')->with('success', 'Annonce crée!');
     }
 }
