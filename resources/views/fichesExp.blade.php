@@ -1,3 +1,6 @@
+@include('partials.header')
+    
+    
     <div class="container">
         <div class="header">
             <span class="back">&#8592;</span>

@@ -1,4 +1,7 @@
-    <div class="container">
+@include('partials.header')
+   
+   
+   <div class="container">
 
         <h2>Articles</h2>
 

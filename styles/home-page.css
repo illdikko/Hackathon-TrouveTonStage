@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar1 {
+    height: 100vh;
+    width: 200px;
+    background: linear-gradient(to bottom, #00c3de,#d3de16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar1 ul li {
+    margin: 20px 0;
+}
+
+.navbar1 ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.user-profile {
+    margin-bottom: 20px;
+    border: 2px solid #ffcc00;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
