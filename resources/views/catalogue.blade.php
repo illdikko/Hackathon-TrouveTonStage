@@ -1,7 +1,14 @@
 <?php
 use App\Http\Controllers\AnnonceController;
 
+$annonces = AnnonceController::getAnnonce();
+
 ?>
-@foreach (AnnonceController::getAnnonce() as $annonce)
+@include('partials.header')
+
+<input type="search" id="search-bar" placeholder="Rechercher...">
+@foreach ($annonces as $annonce)
     @include('partials.carte-annonce', $annonce)
 @endforeach
+
+@include('footer')
