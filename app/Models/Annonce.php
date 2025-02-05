@@ -9,11 +9,27 @@ class Annonce extends Model
 {
     use HasFactory;
 
+    protected $table = 'annonce';
+
+    public $timestamps = false;
+
     protected $fillable = [
         'id',
         'label',
-        'description',
-        'remun',
+        'contenu',
+        'remuneration',
         'metier_id'
     ];
+
+    protected $casts = [
+        'remuneration' => 'boolean'
+    ];
+
+    public function metier() {
+        return $this->belongsTo('App\Models\Metier', 'metier_id');
+    }
+
+    public function referent() {
+        return $this->belongsTo('App\Models\Referent', 'referent_id');
+    }
 }

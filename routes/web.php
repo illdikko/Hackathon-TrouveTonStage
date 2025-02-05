@@ -19,3 +19,8 @@ Route::get('/', [PageController::class, 'index']);
 Route::get('/catalogue', [PageController::class, 'catalogue']);
 Route::get('/annonce', [PageController::class, 'offer']);
 Route::get('/contact', [PageController::class, 'contact']);
+Route::get('/profil', [PageController::class, 'profile']);
+Route::get('/creer-annonce', [PageController::class, 'createOffer']);
+
+Route::post('/create-offer', [AnnonceController::class, 'createAnnonce']);
+
