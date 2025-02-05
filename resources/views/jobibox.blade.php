@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page jobibox</title>
-    <link rel="stylesheet" href="#">
-</head>
-<body>
+
     <h1>La jobibox</h1>
 
     <video controls width="300">
@@ -18,10 +10,3 @@
     <p>La Jobibox est une plateforme en ligne qui facilite la recherche de stages, d’emplois et d’alternances. <br>Elle met en relation les entreprises et les candidats via une interface intuitive et accessible.</p>
 
     <p>Intéressé ? Découvre en plus sur la <a href="https://jobibox.fr/">jobibox</a></p>
-
-
-
-
-    
-</body>
-</html>
