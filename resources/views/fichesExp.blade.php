@@ -37,7 +37,7 @@
         
         <div class="section">
             <div class="section-title">Documents pdf</div>
-            <div class="content">Liste des documents PDF...</div>
+            <div class="content">Liste des documents PDF..</div>
         </div>
     </div>
 </body>
