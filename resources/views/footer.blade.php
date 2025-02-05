@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-< lang="en">
+<lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<>
     <!-- footer.blade.php -->
     <footer id="footer">
         <div id="footer-container">
