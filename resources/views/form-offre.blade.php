@@ -22,7 +22,7 @@
     </div>
 
     <label>
-        <input type="checkbox" id="remuneration" name="remuneration">
+        <input type="checkbox" id="remuneration" name="remuneration" value="0">
         Stage rémunéré
     </label>
 
