@@ -14,9 +14,9 @@
    <!-- <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>-->
     <form class="col-11 mx-auto border-light " action="/envoi" method="POST" enctype="multipart/form-data">
         
-        <div class="mb-3 hstack gap-2 rounded-5 ">
+        <div class="mb-3 gap-2 rounded-5 ">
             
-            <input type="text" class="form-control rounded-4 "style="border-color:#00c3de;" id="name" name="name" placeholder="Nom" required>  
+            <input type="text" class="form-control rounded-4 mb-3 "style="border-color:#00c3de;" id="name" name="name" placeholder="Nom" required>  
             <input type="text" class="form-control rounded-4 "style="border-color:#00c3de;" id="surname" name="surname" placeholder="Prénom" required >
            
             
@@ -51,7 +51,7 @@
     <div class=" col-11 mx-auto container border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
             <img class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class=" mx-auto">
+            <div class=" mx-auto text-center">
                 <p class="m-1">Raphaele Galmisch</p>
                 <p class="m-1">rgalmisch@efp.be</p>
                 <p class="m-1">023708606</p>
@@ -63,7 +63,7 @@
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
+            <div class="mx-auto text-center">
                 <p class="m-1">Valérie Vandewalle</p>
                 <p class="m-1">vvandewalle@efp.be</p>
                 <p class="m-1">023708571</p>
@@ -75,7 +75,7 @@
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
+            <div class="mx-auto text-center">
                 <p class="m-1">Floriane Perrot</p>
                 <p class="m-1">fperrot@efp.be</p>
                 <p class="m-1">023708541</p>
@@ -86,7 +86,7 @@
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
+            <div class="mx-auto text-center">
                 <p class="m-1">Juan Pacifico Y Sanchez</p>
                 <p class="m-1">jpacifico@efp.be</p>
                 <p class="m-1">023708582</p>
