@@ -13,6 +13,15 @@ class AnnonceController extends Controller
         return $data;
     }
 
+    static public function getAnnonceFiltered($id)
+    {
+        $data = Annonce::with('metier')
+            ->whereHas('metier', function($query) use ($id) {
+            $query->where('referent_id', 'like', $id);
+        })->get();
+        return $data;
+    }
+
     public function deleteAnnonce($id)
     {
         Annonce::find($id)->delete();
@@ -31,6 +40,6 @@ class AnnonceController extends Controller
 
         Annonce::create($incomingFields);
 
-        return redirect('/')->with('success', 'Annonce crée!');
+        return redirect('/confirmation')->with('success', 'Annonce crée!');
     }
 }
