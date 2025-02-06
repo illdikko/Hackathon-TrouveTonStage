@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\AnnonceController;
+use App\Http\Controllers\MailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -24,9 +25,10 @@ Route::get('/creer-annonce', [PageController::class, 'createOfferForm']);
 Route::get('/postuler', [PageController::class, 'applyOfferForm']);
 Route::get('/boite-outils', [PageController::class, 'toolBox']);
 Route::get('/faq', [PageController::class, 'faq']);
-Route::get('/confirmation', [PageController::class, 'confirmation']);
+Route::get('/validation', [PageController::class, 'validation']);
 Route::get('/jobibox', [PageController::class, 'jobibox']);
 Route::get('/recherche', [PageController::class, 'recherche']);
 
 Route::post('/set-offer', [AnnonceController::class, 'setAnnonce']);
+Route::post('/envoi', [MailController::class, 'sendMail']);
 
