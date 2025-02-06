@@ -1,10 +1,10 @@
 @include('partials.header')
 
-<h1>Notre boîte à outils</h1>
+<h1 class="page-title">Notre boîte à outils</h1>
 
-<h2>La plateforme DORA</h2>
+<h2 class="section-title">La plateforme DORA</h2>
 
-<p>L'acronyme D.O.R.A. signifie: Développement-Orientation-Réussite-Accrochage.
+<p><span>L'acronyme D.O.R.A. signifie: Développement-Orientation-Réussite-Accrochage.</span>
 
     L'équipe du pôle est composée d'une dizaine de collaborateurs, experts, formés dans le domaine psycho-social, dont
     la mission est d'accompagner, de soutenir et d'outiller les apprenants de l'efp tout au long de leur parcours de
@@ -15,16 +15,11 @@
 <a href="https://efpform.sharepoint.com/sites/PoleDORA/SitePages/Home.aspx">Cliquez ici pour accéder à la plateforme</a>
 
 
-<h3>Liens Utiles</h3>
-
-Vers l'EFP :
-Vers le SFPME :
-<a href=".fichesExp.blade.php">Fiches explicatives sur la rémunération des stages</a>
+<h2 class="section-title">Liens Utiles</h2>
+<a href="https://www.efp.be"><img src="./public/logo-efp-sb.png"></img></a>
 
 
-
-<h3>Articles</h3>
-<p>Retrouvez ici nos articles de blog</p>
-<a href="/article"></a>
+<h2 class="section-title">Articles</h2>
+<a href="/article">Retrouvez ici nos articles de blog</a>
 
 @include('partials.footer')
