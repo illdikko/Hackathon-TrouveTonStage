@@ -19,7 +19,7 @@
 
 Vers l'EFP :
 Vers le SFPME :
-
+<a href=".fichesExp.blade.php">Fiches explicatives sur la rémunération des stages</a>
 
 
 
