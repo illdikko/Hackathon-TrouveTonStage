@@ -70,13 +70,8 @@
     <!--contact-Valérie Vandewalle-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-<<<<<<< HEAD
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
-=======
-            <img class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
->>>>>>> b98fa90f1e971ad48fb1174d163969d3948a9275
                 <p class="m-1">Valérie Vandewalle</p>
                 <p class="m-1">vvandewalle@efp.be</p>
                 <p class="m-1">023708571</p>
@@ -87,13 +82,8 @@
     <!--contact-Floriane Perrot-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-<<<<<<< HEAD
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
-=======
-            <img class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
->>>>>>> b98fa90f1e971ad48fb1174d163969d3948a9275
                 <p class="m-1">Floriane Perrot</p>
                 <p class="m-1">fperrot@efp.be</p>
                 <p class="m-1">023708541</p>
@@ -103,13 +93,8 @@
     <!--contact-Juan PAfico Y Sanchez-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-<<<<<<< HEAD
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
-=======
-            <img class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
-            <div class="mx-auto">
->>>>>>> b98fa90f1e971ad48fb1174d163969d3948a9275
                 <p class="m-1">Juan Pacifico Y Sanchez</p>
                 <p class="m-1">jpacifico@efp.be</p>
                 <p class="m-1">023708582</p>
