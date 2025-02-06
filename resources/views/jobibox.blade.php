@@ -1,6 +1,6 @@
 @include('partials.header')
 
-<h1>La jobibox</h1>
+<h1 class="page-title">La jobibox</h1>
 
 <video controls width="300">
     <source src="https://jobibox.fr/assets/files/jobibox_half.webm" type="video/mp4">

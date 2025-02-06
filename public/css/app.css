@@ -21,6 +21,13 @@ main {
 .cyan-writing{
     color: #00c3de;
 }
+
+.page-title{
+    color: #00c3de;
+    font-size: 14;
+    text-decoration: underline #ffcc00;
+}
+
 .yellow-bg {
     background-color: var(--yellow);
 }
