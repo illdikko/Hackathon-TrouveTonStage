@@ -15,19 +15,19 @@ main {
     margin: auto;
 }
 
-.blue-writing{
+.blue-writing {
     color: #0191b6;
 }
-.cyan-writing{
+.cyan-writing {
     color: #00c3de;
 }
 
-.page-title{
+.page-title {
     color: #0191b6;
     font-size: 24;
 }
 
-.section-title{
+.section-title {
     color: #0191b6;
     font-size: 16;
 }
@@ -43,12 +43,13 @@ main {
 }
 .header-link {
     color: #0191b6;
+    padding-bottom: 1rem;
+    margin: 0 1rem;
     &:hover {
         color: var(--yellow);
         border-bottom: 2px solid var(--yellow);
     }
 }
-
 .white {
     color: white;
 }
@@ -64,6 +65,7 @@ a {
 }
 .link {
     color: var(--orange);
+}
 p {
     font-size: 14;
 }
