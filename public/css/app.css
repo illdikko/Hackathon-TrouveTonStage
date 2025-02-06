@@ -23,14 +23,13 @@ main {
 }
 
 .page-title{
-    color: #00c3de;
-    font-size: 14;
-    text-decoration: underline #ffcc00;
+    color: #0191b6;
+    font-size: 24;
 }
 
 .section-title{
-    color: var(--drop-shadow-efp);
-    font-size: 12;
+    color: #0191b6;
+    font-size: 16;
 }
 
 .yellow-bg {
@@ -56,7 +55,7 @@ a {
     color: white;
 }
 p {
-    font-size: small;
+    font-size: 14;
 }
 ul {
     list-style-type: none;
