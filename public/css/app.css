@@ -28,6 +28,11 @@ main {
     text-decoration: underline #ffcc00;
 }
 
+.section-title{
+    color: var(--drop-shadow-efp);
+    font-size: 12;
+}
+
 .yellow-bg {
     background-color: var(--yellow);
 }
@@ -49,6 +54,9 @@ footer.drop-shadow {
 a {
     text-decoration: none;
     color: white;
+}
+p {
+    font-size: small;
 }
 ul {
     list-style-type: none;
