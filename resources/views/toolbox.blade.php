@@ -12,7 +12,8 @@
 
     Les objectifs du pôle D.O.R.A. sont de favoriser la réussite et l'accrochage de tous les apprenants.</p>
 
-<a href="https://efpform.sharepoint.com/sites/PoleDORA/SitePages/Home.aspx">Cliquez ici pour accéder à la plateforme</a>
+<a href="https://efpform.sharepoint.com/sites/PoleDORA/SitePages/Home.aspx" class="link">Cliquez ici pour accéder à la
+    plateforme</a>
 
 
 <h3>Liens Utiles</h3>
@@ -25,6 +26,6 @@ Vers le SFPME :
 
 <h3>Articles</h3>
 <p>Retrouvez ici nos articles de blog</p>
-<a href="/article"></a>
+<a href="/article" class="link"></a>
 
 @include('partials.footer')
