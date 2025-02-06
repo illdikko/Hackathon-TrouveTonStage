@@ -1,7 +1,7 @@
 @include('partials.header')
 
 <div class="hstack ps-2 ">
-    <img src="back_yellow.png" alt="fleche jaune">
+    <img src="./public/arrow_back_ios.png" alt="fleche jaune">
     <h1 class="mt-3 mb-3" style=" color:#0191B6;">Contacts</h1>
 </div>
 <div class=" mb-3 col-10 mx-auto shadow border border-warning rounded-4 d-flex flex-column align-items-center "
@@ -45,12 +45,10 @@
                 placeholder="Message..." required></textarea>
         </div>
 
-        <div class="">
-            <button class="btn mb-3 rounded-5" style="background-color:#0191B6;">
-                Joindre un fichier
-            </button>
-            <input type="file" id="fileInput" class="d-none mb-3 ">
-            <button type="submit" class="btn mb-3 btn-warning rounded-5 float-end ">Envoyer</button>
+        <div class="wstack"> 
+            <input type="file" id="fileInput" class=" mb-3 ">
+ 
+            <button type="submit" class="btn mb-3 btn-warning rounded-5  ">Envoyer</button>
         </div>
         <div>
             <h4 class="" style="color: #0191B6;">Personnes de contact</h4>
@@ -58,7 +56,7 @@
     </form>
     <div class=" col-11 mx-auto container border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-            <img class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
+            <img class="ps-3 w-25" src="./public/Ellipse 1.png" alt="icon photo profil">
             <div class=" mx-auto text-center">
                 <p class="m-1">Raphaele Galmisch</p>
                 <p class="m-1">rgalmisch@efp.be</p>
@@ -70,7 +68,7 @@
     <!--contact-Valérie Vandewalle-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-            <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
+            <img  class="ps-3 w-25" src="./public/Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
                 <p class="m-1">Valérie Vandewalle</p>
                 <p class="m-1">vvandewalle@efp.be</p>
@@ -82,7 +80,7 @@
     <!--contact-Floriane Perrot-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-            <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
+            <img  class="ps-3 w-25" src="./public/Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
                 <p class="m-1">Floriane Perrot</p>
                 <p class="m-1">fperrot@efp.be</p>
@@ -93,7 +91,7 @@
     <!--contact-Juan PAfico Y Sanchez-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
-            <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
+            <img  class="ps-3 w-25" src="./public/Ellipse 1.png" alt="icon photo profil">
             <div class="mx-auto text-center">
                 <p class="m-1">Juan Pacifico Y Sanchez</p>
                 <p class="m-1">jpacifico@efp.be</p>
