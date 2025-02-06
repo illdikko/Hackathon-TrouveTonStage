@@ -14,6 +14,13 @@ main {
     min-height: 100vh;
     margin: auto;
 }
+
+.blue-writing{
+    color: #0191b6;
+}
+.cyan-writing{
+    color: #00c3de;
+}
 .yellow-bg {
     background-color: var(--yellow);
 }
