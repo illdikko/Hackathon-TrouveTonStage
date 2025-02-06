@@ -35,7 +35,7 @@ class PageController extends Controller
     }
 
     public function toolBox() {
-        return view('fichesExp');
+        return view('toolbox');
     }
 
     public function faq() {
@@ -43,6 +43,10 @@ class PageController extends Controller
     }
 
     public function confirmation() {
-        return view('confirmation');
+        return view('validation');
+    }
+
+    public function recherche() {
+        return view('search');
     }
 }

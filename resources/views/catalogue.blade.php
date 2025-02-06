@@ -1,14 +1,20 @@
 <?php
+use App\Models\Annonce;
 use App\Http\Controllers\AnnonceController;
 
-$annonces = AnnonceController::getAnnonce();
-
+if (isset($_GET['id'])) {
+    $annonces = AnnonceController::getAnnonceFiltered($_GET['id']);
+} else {
+    $annonces = AnnonceController::getAnnonce();
+}
 ?>
 @include('partials.header')
 
-<input type="search" id="search-bar" placeholder="Rechercher...">
+<input type="search" id="search-string" name="search-string" placeholder="Rechercher...">
+
 @foreach ($annonces as $annonce)
     @include('partials.carte-annonce', $annonce)
 @endforeach
-
 @include('partials.footer')
+
+<script src="{{ asset('js/search.js') }}"></script>

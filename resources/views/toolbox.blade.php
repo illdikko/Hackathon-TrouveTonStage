@@ -12,7 +12,8 @@
 
     Les objectifs du pôle D.O.R.A. sont de favoriser la réussite et l'accrochage de tous les apprenants.</p>
 
-<a href="https://efpform.sharepoint.com/sites/PoleDORA/SitePages/Home.aspx">Cliquez ici pour accéder à la plateforme</a>
+<a href="https://efpform.sharepoint.com/sites/PoleDORA/SitePages/Home.aspx" class="link">Cliquez ici pour accéder à la
+    plateforme</a>
 
 
 <h2 class="section-title">Liens Utiles</h2>
