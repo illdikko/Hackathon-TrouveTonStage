@@ -112,3 +112,31 @@ input,
 textarea {
     border: 1px solid var(--blue) !important;
 }
+
+@media only screen and (min-width: 720px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    #burger-button {
+        display: none;
+    }
+
+    nav ul {
+        display: flex; 
+        gap: 1rem;
+      }
+    
+      nav ul li {
+        list-style: none;
+      }
+
+      body{
+        background-color: #fdba2c;
+      }
+
+  }
