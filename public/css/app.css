@@ -116,10 +116,10 @@ textarea {
 @media only screen and (min-width: 720px) {
 
     header {
-        display: flex;
+        display: grid;
         justify-content: center;
         align-items: center;
-        padding: 20px;
+        padding: 1rem;
         
     }
     #burger-button {
@@ -127,16 +127,13 @@ textarea {
     }
 
     nav ul {
-        display: flex; 
+        display: flex;
         gap: 1rem;
+        ;
       }
     
       nav ul li {
         list-style: none;
-      }
-
-      body{
-        background-color: #fdba2c;
       }
 
   }
