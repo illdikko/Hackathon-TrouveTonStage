@@ -17,15 +17,6 @@
 
     <!-- <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>-->
     <form class="col-11 mx-auto border-light " action="/envoi" method="POST" enctype="multipart/form-data">
-<<<<<<< HEAD
-        
-        <div class="mb-3 gap-2 rounded-5 ">
-            
-            <input type="text" class="form-control rounded-4 mb-3 "style="border-color:#00c3de;" id="name" name="name" placeholder="Nom" required>  
-            <input type="text" class="form-control rounded-4 "style="border-color:#00c3de;" id="surname" name="surname" placeholder="Prénom" required >
-           
-            
-=======
         @csrf
         <div class="mb-3 hstack gap-2 rounded-5 ">
 
@@ -35,7 +26,6 @@
                 name="surname" placeholder="Prénom" required>
 
 
->>>>>>> b98fa90f1e971ad48fb1174d163969d3948a9275
         </div>
 
         <div class="mb-3">
