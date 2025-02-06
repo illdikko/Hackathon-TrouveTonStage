@@ -36,10 +36,10 @@ class AnnonceController extends Controller
             'remuneration' => ['required'],
         ]);
 
-        $incomingFields['remuneration'] = $request->input('remuneration', 1);
+        $incomingFields['remuneration'] = $request->input('remuneration') == 'on' ? 1 : 0;
 
         Annonce::create($incomingFields);
 
-        return redirect('/confirmation')->with('success', 'Annonce crée!');
+        return redirect('/validation')->with('success', 'Annonce crée!');
     }
 }

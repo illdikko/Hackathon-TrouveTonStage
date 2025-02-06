@@ -27,27 +27,27 @@
             <li class="list-item"><a
                     href="https://l.facebook.com/l.php?u=https%3A%2F%2Flinktr.ee%2Fefpbxl%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR0YDaxxs6XmJ4PDVzRy8dzo_C-jauH9ZdTuNa-vWWJw20FSOM3K3EfHcbg_aem_5bHup0xoeTQgxt6rn2RTkA&h=AT2VKsCde_l5lgl88yCABVfb5d841c1jiVVHu-CKowatloCeBgAra6rdXUeuIfHllbCYwg68LYIINDCDR65l5LihESB50G2utPPvZFAu2bLSawIny-Qv9PJQHDiZdICxZr3k&__tn__=%2Cd"
                     target="_blank">
-                    <img src="{{asset('/icons/facebook.svg')}}" alt="logo_facebook">
+                    <img src="{{ asset('/icons/facebook.svg') }}" alt="logo_facebook">
                 </a>
             </li>
 
             <li class="list-item"><a href="https://x.com/efp_bxl?s=21&t=zp7kVv3ql5H7I_B2yJtLGw&mx=2" target="_blank">
-                    <img src="{{asset('/icons/twitter-x.svg')}}" alt="logo-x">
+                    <img src="{{ asset('/icons/twitter-x.svg') }}" alt="logo-x">
                 </a>
             </li>
 
             <li class="list-item"><a href="https://www.linkedin.com/groups/4173160/" target="_blank">
-                    <img src="{{asset('/icons/linkedin.svg')}}" alt="logo-linkedin">
+                    <img src="{{ asset('/icons/linkedin.svg') }}" alt="logo-linkedin">
                 </a>
             </li>
 
             <li class="list-item"><a href="https://www.youtube.com/@efpformateurdetalents">
-                    <img src="{{asset('/icons/youtube.svg')}}" alt="/logo-youtube" target="_blank">
+                    <img src="{{ asset('/icons/youtube.svg') }}" alt="/logo-youtube" target="_blank">
                 </a>
             </li>
             <li class="list-item"><a href="https://www.instagram.com/efpbxl?igsh=MXI3ZGc0d3ZlaWc4OA%3D%3D"
                     target="_blank">
-                    <img src="{{asset('/icons/instagram.svg')}}" alt="logo-instagram">
+                    <img src="{{ asset('/icons/instagram.svg') }}" alt="logo-instagram">
                 </a>
             </li>
         </ul>
@@ -57,7 +57,7 @@
 
 
 </footer>
-<script src="{{asset('js/burger.js')}}"></script>
+<script src="{{ asset('js/burger.js') }}"></script>
 </body>
 
 </html>
