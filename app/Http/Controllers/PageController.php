@@ -42,7 +42,7 @@ class PageController extends Controller
         return view('faq');
     }
 
-    public function confirmation() {
+    public function validation() {
         return view('validation');
     }
 
