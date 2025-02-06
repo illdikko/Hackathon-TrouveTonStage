@@ -93,6 +93,8 @@ ul {
 .pole {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     outline: 2px solid;
     outline-color: #fff;
     & a {
@@ -113,27 +115,31 @@ textarea {
     border: 1px solid var(--blue) !important;
 }
 
-@media only screen and (min-width: 720px) {
+#desktop-nav {
+    display: none;
+}
 
+@media only screen and (min-width: 720px) {
     header {
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 20px;
-        
     }
     #burger-button {
         display: none;
+    }
+    #desktop-nav {
+        display: flex;
     }
 
     nav ul {
         display: flex;
         gap: 1rem;
         display: block;
-      }
-    
-      nav ul li {
-        list-style: none;
-      }
+    }
 
-  }
+    nav ul li {
+        list-style: none;
+    }
+}

@@ -23,7 +23,7 @@
             <img src="{{ asset('/logo-efp-sb.png') }}" alt="logo efp" height="48px">
         </a>
         {{-- desktop --}}
-        <nav class="d-flex justify-content-between align-items-center fw-bolder">
+        <nav class="justify-content-between align-items-center fw-bolder" id="desktop-nav">
             <ul class="nav nav-pills flex-row gap-2">
                 <li class="nav-item"><a href="/catalogue" class="header-link">Catalogue</a></li>
                 <li class="nav-item"><a href="/contact" class="header-link">Contacts</a></li>

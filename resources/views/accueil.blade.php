@@ -2,7 +2,7 @@
 
 <div class="container my-auto h-100">
     <div class="row">
-        <h1 class="col page-title">Accédez à notre catalogue</h1>
+        <h1 class="col page-title text-center">Accédez à notre catalogue</h1>
     </div>
     <div class="row justify-content-center">
         <div class="pole col m-2">
