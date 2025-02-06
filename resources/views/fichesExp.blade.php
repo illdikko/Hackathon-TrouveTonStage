@@ -4,7 +4,7 @@
     <div class="container">
         <div class="header">
             <span class="back">&#8592;</span>
-            <h1>Infos utiles</h1>
+            <h1 class ="page-title">Infos utiles</h1>
         </div>
         
         <div class="section">
@@ -27,3 +27,5 @@
             <div class="content">Liste des documents PDF..</div>
         </div>
     </div>
+
+@include('partials.footer')

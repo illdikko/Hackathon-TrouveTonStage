@@ -3,7 +3,7 @@
 
 <div class="container">
 
-    <h2>Articles</h2>
+    <h1 class="page-title">Articles</h1>
 
     <div class="article-list">
 

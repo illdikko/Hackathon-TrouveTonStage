@@ -1,4 +1,7 @@
 @include('partials.header')
 
-<h1>Merci!</h1>
-<h3>Votre demande nous a bien été transmise!</h3>
+
+<h1 class="cyan-writing" style="font-size: 14">Merci!</h1>
+<h3 class="blue-writing" style="font-size: 11">Votre demande nous a bien été transmise!</h3>
+
+@include('partials.footer')

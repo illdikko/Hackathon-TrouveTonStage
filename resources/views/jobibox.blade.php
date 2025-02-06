@@ -1,13 +1,13 @@
 @include('partials.header')
 
-<h1>La jobibox</h1>
+<h1 class="page-title">La jobibox</h1>
 
 <video controls width="300">
     <source src="https://jobibox.fr/assets/files/jobibox_half.webm" type="video/mp4">
     Vidéo de présentation de jobibox
 </video>
 
-<h2>Qu'est ce que la jobibox ?</h2>
+<h2 class="section-title">Qu'est ce que la jobibox ?</h2>
 <p>La Jobibox est une plateforme en ligne qui facilite la recherche de stages, d’emplois et d’alternances. <br>Elle met
     en relation les entreprises et les candidats via une interface intuitive et accessible.</p>
 

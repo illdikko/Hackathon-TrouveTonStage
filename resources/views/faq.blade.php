@@ -1,7 +1,7 @@
 @include('partials.header')
 
 
-<h1>Espace FAQ</h1>
+<h1 class="page-title">FAQ - Recherche de Stage pour les Étudiants de l'EFP</h1>
 
 <p>Clique <a href="https://www.efp.be/projets/plateforme-dora.html">ICI</a> pour basculer vers la plateforme DORA!</p>
 
