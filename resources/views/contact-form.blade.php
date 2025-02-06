@@ -82,6 +82,7 @@
             </div>
         </div>
     </div>
+    <!--contact-Juan PAfico Y Sanchez-->
     <div class=" col-11 mx-auto border border-warning p-3 rounded-4 mb-3">
         <div class="hstack">
             <img  class="ps-3 w-25" src="Ellipse 1.png" alt="icon photo profil">
