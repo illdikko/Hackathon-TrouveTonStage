@@ -2,9 +2,11 @@
 use App\Models\Annonce;
 use App\Http\Controllers\AnnonceController;
 
-// $annonces = Annonce::with('metier')->get();
-// $annonces = Annonce::with('metier')->get();
-$annonces = AnnonceController::getAnnonceFiltered($_GET['id']);
+if (isset($_GET['id'])) {
+    $annonces = AnnonceController::getAnnonceFiltered($_GET['id']);
+} else {
+    $annonces = AnnonceController::getAnnonce();
+}
 ?>
 @include('partials.header')
 
