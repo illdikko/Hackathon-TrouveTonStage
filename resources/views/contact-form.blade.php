@@ -12,7 +12,7 @@
 <div class="container" >
     
    <!-- <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>-->
-    <form class="col-11 mx-auto border-light " action="{{ route('form.submit') }}" method="POST" enctype="multipart/form-data">
+    <form class="col-11 mx-auto border-light " action="/" method="POST" enctype="multipart/form-data">
         
         <div class="mb-3 hstack gap-2 rounded-5 ">
             
