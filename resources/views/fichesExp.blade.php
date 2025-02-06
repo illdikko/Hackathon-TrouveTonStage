@@ -27,3 +27,5 @@
             <div class="content">Liste des documents PDF..</div>
         </div>
     </div>
+
+@include('partials.footer')
