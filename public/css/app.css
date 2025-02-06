@@ -15,19 +15,19 @@ main {
     margin: auto;
 }
 
-.blue-writing{
+.blue-writing {
     color: #0191b6;
 }
-.cyan-writing{
+.cyan-writing {
     color: #00c3de;
 }
 
-.page-title{
+.page-title {
     color: #0191b6;
     font-size: 24;
 }
 
-.section-title{
+.section-title {
     color: #0191b6;
     font-size: 16;
 }
@@ -41,6 +41,15 @@ main {
 .blue-bg {
     background-color: var(--blue);
 }
+.header-link {
+    color: #0191b6;
+    padding-bottom: 1rem;
+    margin: 0 1rem;
+    &:hover {
+        color: var(--yellow);
+        border-bottom: 2px solid var(--yellow);
+    }
+}
 .white {
     color: white;
 }
@@ -53,6 +62,9 @@ footer.drop-shadow {
 a {
     text-decoration: none;
     color: white;
+}
+.link {
+    color: var(--orange);
 }
 p {
     font-size: 14;
@@ -71,7 +83,7 @@ ul {
     left: 0;
     top: 0;
     background: linear-gradient(0.33turn, var(--cyan), var(--green));
-    transition: all .5s;
+    transition: all 0.5s;
     /* overflow-x: hidden; */
     & nav {
         height: 100%;
@@ -86,19 +98,21 @@ ul {
     & a {
         color: var(--blue);
     }
-    transition: .5s;
+    transition: 0.5s;
 }
 .pole:hover {
     outline-color: var(--yellow);
 }
 input {
     border-radius: 1rem;
-    padding: .5rem;
+    padding: 0.5rem;
     min-width: 75vw;
 }
-input, textarea {
+input,
+textarea {
     border: 1px solid var(--blue) !important;
 }
+
 @media only screen and (min-width: 720px) {
 
     header {
@@ -121,6 +135,8 @@ input, textarea {
         list-style: none;
       }
 
+      body{
+        background-color: #fdba2c;
+      }
 
   }
-  

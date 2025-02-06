@@ -35,14 +35,18 @@ class PageController extends Controller
     }
 
     public function toolBox() {
-        return view('fichesExp');
+        return view('toolbox');
     }
 
     public function faq() {
         return view('faq');
     }
 
-    public function confirmation() {
-        return view('confirmation');
+    public function validation() {
+        return view('validation');
+    }
+
+    public function recherche() {
+        return view('search');
     }
 }

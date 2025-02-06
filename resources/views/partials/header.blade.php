@@ -18,16 +18,26 @@
 <body>
     {{-- mobile --}}
     <header class="d-flex flex-wrap justify-content-between p-3 mb-4 border-bottom drop-shadow">
-        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
-            <img src="{{ asset('/SFPME_LOGO_CMYK.png') }}" alt="logo_efp" height="48px">
+        <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none gap-2">
+            <img src="{{ asset('/SFPME_LOGO_CMYK.png') }}" alt="logo sfpme" height="48px">
+            <img src="{{ asset('/logo-efp-sb.png') }}" alt="logo efp" height="48px">
         </a>
-        <img class="yellow-bg rounded m-2 p-2" src=" {{ asset('/icons/list.svg') }}" alt="burger menu icon" width="48"
-            height="48" id="burger-button">
+        {{-- desktop --}}
+        <nav class="d-flex justify-content-between align-items-center fw-bolder">
+            <ul class="nav nav-pills flex-row gap-2">
+                <li class="nav-item"><a href="/catalogue" class="header-link">Catalogue</a></li>
+                <li class="nav-item"><a href="/contact" class="header-link">Contacts</a></li>
+                <li class="nav-item"><a href="/boite-outils" class="header-link">Boite à outils</a></li>
+                <li class="nav-item"><a href="/faq" class="header-link">FAQ</a></li>
+            </ul>
+        </nav>
 
-        {{-- OVERLAY for burger menu --}}
+        <img class="yellow-bg rounded m-2 p-2" src=" {{ asset('/icons/list.svg') }}" alt="burger menu icon"
+            width="48" height="48" id="burger-button">
     </header>
-    <main>
 
+    <main>
+        {{-- OVERLAY for burger menu --}}
         <div class="overlay-menu" id="overlay">
             <nav class="d-flex flex-column justify-content-center align-items-center">
                 <ul class="nav nav-pills flex-column">
@@ -38,4 +48,3 @@
                 </ul>
             </nav>
         </div>
-        {{-- desktop --}}
