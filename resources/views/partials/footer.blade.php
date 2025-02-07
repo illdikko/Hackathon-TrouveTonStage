@@ -13,7 +13,7 @@
                 <li><a href="mailto:info@efp.be">info@efp.be</a></li>
             </ul>
         </div>
-        <div id="footer-liens" class="d-flex flex-column justify-content-center text-center fs-2 fw-bold m-3">
+        <div id="footer-liens" class="d-flex flex-column justify-content-center text-center fs-1 fw-bold m-3">
             <a href="/catalogue">Stages</a>
             <a href="/boite-outils">Boîte à outils</a>
             <a href="/faq">FAQ</a>

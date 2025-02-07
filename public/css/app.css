@@ -108,7 +108,7 @@ ul {
 input {
     border-radius: 1rem;
     padding: 0.5rem;
-    min-width: 75vw;
+    /* min-width: 75vw; */
 }
 input,
 textarea {

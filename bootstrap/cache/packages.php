@@ -20,17 +20,6 @@
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
-  'mailersend/laravel-driver' => 
-  array (
-    'aliases' => 
-    array (
-      'LaravelDriver' => 'MailerSend\\LaravelDriver\\LaravelDriverFacade',
-    ),
-    'providers' => 
-    array (
-      0 => 'MailerSend\\LaravelDriver\\LaravelDriverServiceProvider',
-    ),
-  ),
   'nesbot/carbon' => 
   array (
     'providers' => 

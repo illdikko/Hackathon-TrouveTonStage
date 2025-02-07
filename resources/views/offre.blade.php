@@ -1,17 +1,22 @@
 <?php
 use App\Http\Controllers\AnnonceController;
 use App\Models\Annonce;
-$annonce = Annonce::find($id)->get();
+// $annonce = Annonce::find($id)->get();
 ?>
 
 @include('partials.header')
 
 
 <div>
+    <h1>Stage</h1>
+    <p>test test</p>
+    <p>Non-rémunéré</p>
+    <p>métier</p>
+{{--     
     <h1>{{$annonce->label}}</h1>
     <p>{{$annonce->contenu}}</p>
     <p>{{$annonce->remuneration}}</p>
-    <p>{{$annonce->metier->label}}</p>
+    <p>{{$annonce->metier->label}}</p> --}}
 </div>
 
 

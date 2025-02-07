@@ -5,9 +5,11 @@
     @csrf
     <div class="input-group">
         <select name="metier_id" id="metier_id">
-            @foreach (MetierController::getMetier() as $metier)
+            {{-- @foreach (MetierController::getMetier() as $metier) --}}
                 <option value="{{ $metier->id }}">{{ $metier->label }}</option>
-            @endforeach
+            {{-- @endforeach --}}
+            <option value="1">Développeur Web</option>
+
         </select>
     </div>
 
